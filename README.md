@@ -1,38 +1,72 @@
 # MarTech Campaign Optimization & Customer Lifecycle Transformation
 
-## Portfolio Positioning
-**Experience-aligned case study for SRIJA AMULA**
+## Overview
 
-This project is closely aligned with my professional experience supporting CRM and MarTech initiatives at Accenture. It reflects the types of activities I have performed professionally—requirements elicitation, stakeholder workshops, customer journeys, segmentation, campaign analysis, SQL/Power BI reporting, impact analysis, Agile delivery, UAT, release support, and post-implementation validation—while using **synthetic data and sanitized scenarios** suitable for public GitHub.
+This Business Analyst portfolio project focuses on **CRM, MarTech, customer lifecycle management, customer engagement, and campaign performance analysis**.
 
-## Executive Summary
-**Business objective:** Improve campaign performance, customer engagement, and lead/customer lifecycle visibility while establishing trusted cross-channel reporting.
+The project demonstrates how business requirements, customer journeys, data analysis, process improvement, Agile delivery, and UAT can be used to improve marketing and customer lifecycle initiatives.
 
-This case study follows the BA lifecycle from discovery to measurement:
+This case study is aligned with my professional experience supporting CRM and MarTech initiatives. All data and scenarios used in this repository are synthetic and created for portfolio purposes.
 
-**stakeholder discovery → current-state assessment → customer journey analysis → SQL/data analysis → requirements → process improvement → Agile backlog → API/integration specification → UAT → release/change → KPI monitoring**
+## Business Objective
 
-## Experience Alignment
-My professional background includes:
-- partnering with Marketing, Product, Technology, Growth, and Development teams;
-- facilitating 40+ stakeholder workshops;
-- creating 150+ user stories, BRDs, FRDs, process flows, and acceptance criteria;
-- supporting customer segmentation, campaign analysis, A/B testing documentation, and landing-page enhancements;
-- performing impact analysis for 60+ enhancements;
-- building SQL queries, Power BI dashboards, and Excel KPI reports;
-- supporting UAT, release planning, production validation, and change management.
+The objective of this project is to improve:
 
-The artifacts in this repository demonstrate those capabilities without exposing confidential employer or client information.
+* Customer engagement
+* Customer lifecycle visibility
+* Campaign performance
+* Customer segmentation
+* Marketing KPI reporting
+* Business process efficiency
 
-## Repository Map
-- `data/` — synthetic source data
-- `sql/analysis.sql` — SQL analysis using joins, aggregation, CTEs and window functions
-- `documentation/` — BRD/FRD/SRS, requirements, stakeholder/RACI, Agile backlog, change plan
-- `process/` — SIPOC, AS-IS/TO-BE and Mermaid process diagrams
-- `testing/` — UAT scenarios, test cases, defect log and regression coverage
-- `api/` — REST/JSON contract examples and Postman collection
-- `python/analysis.py` — reproducible analysis
-- `dashboard/` — Excel dashboard workbook
+## Business Analyst Activities
 
-## Skills Demonstrated
-Requirements elicitation · CRM · MarTech · customer lifecycle · customer journey mapping · segmentation · campaign analysis · KPI reporting · SQL · Power BI · Excel · Agile/Scrum · BRD/FRD/SRS · process improvement · impact analysis · stakeholder management · REST APIs · Postman · UAT · regression testing · release planning · change management
+The project covers:
+
+* Requirements gathering
+* Stakeholder analysis
+* BRD and FRD documentation
+* User stories and acceptance criteria
+* Customer journey mapping
+* AS-IS and TO-BE process analysis
+* Customer segmentation
+* Campaign performance analysis
+* SQL analysis
+* KPI reporting
+* Agile backlog management
+* Impact analysis
+* UAT and regression testing
+* Release and change management
+
+## Repository Structure
+
+* `data/` – Synthetic customer and campaign data
+* `sql/` – SQL queries for customer and campaign analysis
+* `documentation/` – Business requirements, user stories, stakeholder analysis and Agile documentation
+* `process/` – AS-IS, TO-BE and process flow documentation
+* `testing/` – UAT test cases, regression scenarios and defect tracking
+* `dashboard/` – Campaign and KPI reporting
+* `api/` – API specification and Postman collection
+* `python/` – Supporting data analysis
+
+## Tools & Skills
+
+**Business Analysis:** Requirements Gathering, BRD, FRD, User Stories, Acceptance Criteria, Process Mapping, Impact Analysis
+
+**CRM & MarTech:** CRM, Customer Lifecycle Management, Customer Journey Mapping, Customer Segmentation, Campaign Analysis
+
+**Data & Reporting:** SQL, Power BI, Microsoft Excel, KPI Reporting
+
+**Project Delivery:** Agile Scrum, Stakeholder Management, UAT, Release Planning, Change Management
+
+**Technical:** REST API, JSON, Postman
+
+## Key Skills Demonstrated
+
+`Business Analysis` · `CRM` · `MarTech` · `Customer Lifecycle` · `Customer Journey Mapping` · `Customer Segmentation` · `Campaign Analysis` · `SQL` · `Power BI` · `Agile` · `UAT` · `Process Improvement`
+
+## Disclaimer
+
+This project is created for portfolio purposes.
+
+All datasets are synthetic and no confidential client, employer, or production information is included.
