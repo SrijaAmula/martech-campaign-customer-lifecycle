@@ -1,0 +1,41 @@
+{
+  "info": {
+    "name": "MarTech Campaign Optimization & Lead Funnel Transformation API Validation"
+  },
+  "item": [
+    {
+      "name": "GET KPI summary",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}"
+          }
+        ],
+        "url": "https://api.example.com/v1/kpis?period=2026-07"
+      }
+    },
+    {
+      "name": "POST exception action",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"entity_id\":\"123\",\"action\":\"review\"}"
+        },
+        "url": "https://api.example.com/v1/actions"
+      }
+    }
+  ]
+}

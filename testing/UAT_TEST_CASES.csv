@@ -1,0 +1,6 @@
+Test_ID,Scenario,Precondition,Steps,Expected_Result,Status
+UAT-01,KPI reconciliation,Approved source available,Compare dashboard total to source,Totals match within tolerance,Pass
+UAT-02,Filter behavior,User logged in,Apply segment filter,All visuals update consistently,Pass
+UAT-03,Role access,Restricted user exists,Open restricted detail,Access denied,Pass
+UAT-04,Refresh timestamp,Pipeline completed,Open dashboard,Latest successful refresh displayed,Pass
+UAT-05,Exception workflow,Threshold breached,Trigger refresh,Alert created and assigned,Pass
