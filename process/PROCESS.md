@@ -85,3 +85,68 @@ L --> D
 K -- No --> M[Weekly Performance Report]
 
 M --> N[VP Marketing / Leadership]
+---
+
+# 7. TO-BE Business Process
+
+## 7.1 Future-State Objective
+
+The future-state process is designed to reduce manual campaign reporting
+effort while establishing consistent Marketing and CRM reporting rules.
+
+The TO-BE process addresses the current-state gaps through:
+
+- Standardized campaign data consolidation
+- Agreed campaign-to-CRM mapping rules
+- Governed KPI definitions
+- Automated or repeatable data-quality validation
+- Defined exception handling
+- Consistent CRM funnel reporting
+- Clear business ownership
+- More timely performance visibility
+
+The objective is not only to improve the reporting interface, but also
+to improve the process used to create trusted campaign performance
+information.
+
+---
+
+## 7.2 TO-BE Process Flow
+
+```mermaid
+flowchart TD
+
+A[Approved Marketing Data Sources] --> C[Data Ingestion]
+B[CRM System] --> C
+
+C --> D[Data Standardization]
+
+D --> E[Campaign Mapping]
+
+E --> F[Data Quality Validation]
+
+F --> G{Validation Passed?}
+
+G -- No --> H[Exception Log]
+
+H --> I[Assigned Business / Data Owner]
+
+I --> J[Investigate & Resolve]
+
+J --> C
+
+G -- Yes --> K[Marketing & CRM Reconciliation]
+
+K --> L{Reconciliation Issue?}
+
+L -- Yes --> H
+
+L -- No --> M[Apply Approved KPI & Funnel Rules]
+
+M --> N[Governed Reporting Dataset]
+
+N --> O[Campaign & Funnel Reporting]
+
+O --> P[Marketing / CRM Performance Review]
+
+P --> Q[Campaign & Budget Decision]
