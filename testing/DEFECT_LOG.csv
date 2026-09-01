@@ -1,3 +1,0 @@
-Defect_ID,Severity,Description,Expected,Actual,Status
-DEF-001,Medium,Segment filter omitted one category,All categories included,Category missing,Closed
-DEF-002,Low,Refresh timestamp timezone unclear,Timezone labeled,No timezone label,Closed
