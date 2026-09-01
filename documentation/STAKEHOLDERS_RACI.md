@@ -2,8 +2,7 @@
 
 ## 1. Purpose
 
-This document identifies the stakeholders involved in the MarTech Campaign
-Optimization & Customer Lifecycle Transformation initiative and defines their
+This document identifies the stakeholders involved in the MarTech Campaign Optimization & CRM Funnel Transformation initiative and defines their
 business interests, influence, responsibilities, and engagement needs.
 
 The stakeholder analysis was prepared during the discovery phase to ensure
@@ -20,7 +19,7 @@ rather than treating campaign reporting as a Marketing-only problem.
 | Marketing Operations Manager | Business Owner | Current reporting requires manual consolidation across platforms and KPI definitions are inconsistent | High | Requirements workshops, backlog prioritization, UAT sign-off |
 | CRM / Sales Operations Manager | CRM Process Owner | Needs consistent tracking from Lead → Opportunity → Win and alignment between Marketing and CRM reporting | High | Discovery workshops, funnel-definition sessions, UAT |
 | Campaign Performance Analyst | Subject Matter Expert / End User | Spends significant time cleaning and reconciling campaign data before analysis | Medium | Working sessions, KPI validation, dashboard feedback |
-| CRM Product Owner | System Owner | Responsible for CRM fields, lifecycle stages and system changes affecting funnel reporting | High | Requirement reviews, data-mapping discussions |
+| CRM Product Owner | System Owner | Responsible for CRM fields, funnel stages and system changes affecting campaign and funnel reporting | High | Requirement reviews, data-mapping discussions |
 | Business Analyst | Requirements & Process Lead | Responsible for elicitation, process analysis, requirements, traceability and business validation | High | Facilitates stakeholder collaboration throughout SDLC |
 | Data / BI Engineer | Technical Delivery | Requires agreed KPI definitions, data sources, transformation rules and mapping requirements | Medium | Data workshops and technical clarification |
 | QA / UAT Lead | Quality & Validation | Requires testable acceptance criteria and expected business results | Medium | Test planning, defect triage and UAT coordination |
