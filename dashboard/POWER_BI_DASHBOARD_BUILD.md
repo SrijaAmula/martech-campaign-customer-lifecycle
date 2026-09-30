@@ -75,4 +75,3 @@ IF(
 
 ## Portfolio Note
 The dashboard screenshots are a visual prototype built from the project's validated synthetic-data benchmarks.
-They represent the intended Power BI implementation and can be recreated directly in Power BI Desktop when access is available.
